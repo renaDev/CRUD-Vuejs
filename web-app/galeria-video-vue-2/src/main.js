@@ -16,6 +16,8 @@ Vue.prototype.$galeriaService = GaleriaService;
 Vue.prototype.$server = server;
 
 Vue.use(VueRouter);
+Vue.use(Home);
+Vue.use(ManterGaleria);
 
 Vue.config.productionTip = false
 
